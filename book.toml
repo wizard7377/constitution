@@ -6,4 +6,5 @@ title = "The New Constitution"
 
 [build]
 build-dir = "build"
-create-missing = false
+create-missing = true
+
