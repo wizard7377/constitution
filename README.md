@@ -61,7 +61,7 @@ Through questions like these, I hope we can become a "beacon of democracy around
 
 ### How?
 
-[mdBook](https://github.com/rust-lang/mdBook).
+[mdBook](https://github.com/rust-lang/mdBook) for the website, [pandoc](https://pandoc.org/) for the plain text and pdf.
 
 ## Free as in Freedom
 

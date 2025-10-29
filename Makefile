@@ -1,13 +1,10 @@
 MDBOOK ?= mdbook
+PANDOC ?= pandoc
 OUTPUT_DIR ?= output
 BUILD_DIR ?= build
-OUTPUT_TXT_FILE ?= output
-OUTPUT_PDF_FILE ?= output
-OUTPUT_TXT := $(OUTPUT_DIR)/$(OUTPUT_TXT_FILE).txt
-OUTPUT_PDF := $(OUTPUT_DIR)/$(OUTPUT_PDF_FILE).pdf
 INPUTS := $(wildcard src/**/*.md)
-
-all: $(OUTPUT_PDF) $(OUTPUT_TXT)
+MAIN ?= src/TEXT.md
+all: $(OUTPUT_DIR)/main.pdf $(OUTPUT_DIR)/main.txt
 serve: $(INPUTS)
 	$(MDBOOK) serve --open
 
@@ -16,13 +13,13 @@ $(BUILD_DIR)/pdf/output.pdf: $(INPUTS)
 
 $(BUILD_DIR)/text/output.txt: $(INPUTS)
 
-$(OUTPUT_PDF) : $(BUILD_DIR)/pdf/output.pdf
+$(OUTPUT_DIR)/main.pdf : $(MAIN)
 	mkdir -p $(OUTPUT_DIR)
-	cp $(BUILD_DIR)/pdf/output.pdf $(OUTPUT_PDF)
+	$(PANDOC) -t pdf $^ -o $@
 
-$(OUTPUT_TXT) : $(BUILD_DIR)/text/output.txt
+$(OUTPUT_DIR)/main.txt : $(MAIN)
 	mkdir -p $(OUTPUT_DIR)
-	cp $(BUILD_DIR)/pdf/output.pdf $(OUTPUT_TXT)
-
+	$(PANDOC) -t plain $^ -o $@
 clean: 
 	rm -rf $(BUILD_DIR) $(OUTPUT_DIR)
+	rm -rf output
