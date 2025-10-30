@@ -3,23 +3,28 @@ PANDOC ?= pandoc
 OUTPUT_DIR ?= output
 BUILD_DIR ?= build
 INPUTS := $(wildcard src/**/*.md)
-MAIN ?= src/TEXT.md
-all: $(OUTPUT_DIR)/main.pdf $(OUTPUT_DIR)/main.txt
+OUTPUT_EXTS += pdf txt md rtf odt epub html docx 
+OUTPUT_FILES := $(foreach file_ext, $(OUTPUT_EXTS), $(OUTPUT_DIR)/main.$(file_ext))
+MAIN ?= src/TEXT.md src/Core/Preamble.md src/Core/Main.md src/Core/Rights.md
+DEFAULT_FILE ?= DEFAULTS.yaml
+all: clean $(OUTPUT_FILES)
 serve: $(INPUTS)
 	$(MDBOOK) serve --open
 
 $(BUILD_DIR)/pdf/output.pdf: $(INPUTS)
 	$(MDBOOK) build
 
-$(BUILD_DIR)/text/output.txt: $(INPUTS)
 
-$(OUTPUT_DIR)/main.pdf : $(MAIN)
-	mkdir -p $(OUTPUT_DIR)
-	$(PANDOC) -t pdf $^ -o $@
+$(OUTPUT_DIR)/main.% : $(INPUTS)
+	@mkdir -p $(OUTPUT_DIR)
+	$(PANDOC) --defaults $(DEFAULT_FILE) -o $@
 
-$(OUTPUT_DIR)/main.txt : $(MAIN)
+# For whatever reason, pandoc's plain text output requires -t plain
+$(OUTPUT_DIR)/main.txt : $(INPUTS)
 	mkdir -p $(OUTPUT_DIR)
-	$(PANDOC) -t plain $^ -o $@
+	$(PANDOC) -t plain --defaults $(DEFAULT_FILE) -o $@
+
+
 clean: 
-	rm -rf $(BUILD_DIR) $(OUTPUT_DIR)
-	rm -rf output
+	@rm -rf $(BUILD_DIR) $(OUTPUT_DIR)
+	@rm -rf output

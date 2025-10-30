@@ -1,0 +1,20 @@
+input-files:
+- src/TEXT.md
+- src/Core/Preamble.md
+- src/Core/Main.md
+- src/Core/Main/A1.md
+- src/Core/Main/A2.md
+- src/Core/Main/A3.md
+- src/Core/Main/A4.md
+- src/Core/Main/A5.md
+- src/Core/Main/A6.md
+- src/Core/Main/A7.md
+- src/Core/Rights.md
+
+
+strip-comments: true 
+standalone: true
+wrap: preserve
+top-level-division: part
+metadata:
+  title: "The New Constitution"
