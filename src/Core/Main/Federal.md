@@ -1,10 +1,10 @@
 
 
-### Article 5 
+## Article 7
 <!--- States and Federal -->
 
 
-#### Section 1 
+### Section 
 <!--- States -->
 
 *Federal property may not be taxed by the state or locality in which it is in.*
@@ -16,7 +16,7 @@ States must provide for and protect the rights of their citizens as defined by t
 
 States must deliver those fleeing from justice in some other state to that state, so they may stand trial.
 
-#### Section 2 
+### Section 
 <!--- Federal Government -->
 
 The federal government shall not deploy the militia against the states, without either 2/3 of the House or the Senate, or at the request of the state government, or if the state has formally declared an insurrection, or if citizens of other states, or federal property, shall be threatened.

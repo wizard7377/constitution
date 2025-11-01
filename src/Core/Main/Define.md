@@ -1,10 +1,10 @@
 
 
-### Article 1 
+## Article 1
 <!--- Definitions -->
 
 
-#### Section 1 
+### Section 
 <!--- Electoral districts -->
 
 There shall be, within the United States, 250 electoral districts, whose boundaries shall be determined by the state in which the district is located; however, upon a vote of 3/5 in either the Senate or the House of Representatives, the boundaries shall be determined by the federal government, such that the district still lies within the state, and is permissible.
@@ -21,7 +21,7 @@ The District of Columbia shall have its own distinct district, which may not be 
 The population of each state shall be determined by a fair thorough census, conducted once every 16 years, not taking effect until the next election.
 Each district must be bound by established borders.
 
-#### Section 2 
+### Section 
 <!--- Ranked Choice Voting -->
 
 Whenever a vote shall be mentioned as taking place by "ranked choice", it refers to the following.

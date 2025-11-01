@@ -2,11 +2,11 @@
 
 
 
-### Article 3 
+## Article 4
 <!--- Executive -->
 
 
-#### Section 1
+### Section
 
 The executive power of the United States shall be vested in one primary executor and three secondary executors.
 The executive vote, if all members are present, is the consensus of the secondary executors, or, if no such consensus is reached, that of the primary executor.
@@ -15,7 +15,7 @@ If two or more abstain, then the vote shall be that of the primary executor.
 However, in the case that the primary executor abstains, then it shall be the majority vote among the secondary executors.
 If this vote is tied, then the vote shall be deferred to the house.
 
-#### Section 2
+### Section
 
 All executors shall have a term of **8 years**, offset by two years, as is the house and senate, with the primary executor being elected in the first year of the cycle.
 
@@ -23,12 +23,12 @@ Each electoral district shall cast one ranked ballot, which should be determined
 
 No district shall submit a ballot with less than two candidates on it.
 
-#### Section 3
+### Section
 
 **No person shall be an executor who is not yet 21 years of age, or not a citizen of the United States.**
 Each executor shall take a binding oath of office, however, such an oath must not require any specific religion, nor may any other test be required for affiliation or lack thereof with any religion
 
-#### Section 4 
+### Section 
 <!--- Duties of the Executors -->
 
 The executors shall act as heads of the army, as well as chief diplomats of the United States.
@@ -36,7 +36,7 @@ However, to sign a treaty, they must have the affirmation of either 1/2 of the H
 The executor shall have the ability to grant pardons.
 They shall also head executive departments as established and delegated by Congress.
 
-#### Section 5 
+### Section 
 <!--- State of the Union -->
 
 At least once each year, at least one executor must give a **verbal** address to Congress and to the people on the State of the Union.

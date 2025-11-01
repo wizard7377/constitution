@@ -1,12 +1,12 @@
 # Notes 
 
-Here, we give a section by section explination of why changes were, or weren't, made
+Here, we give a Sectiony Sectionxplination of why changes were, or weren't, made
 
-## Article 1
+# Article
 
 [Link](../text/articles/art01.md)
 
-### Electoral districts 
+## Electoral districts 
 The original constitution did not use many terms, as the system created, while allowing complexity in its practice, in its theory was a simple system.
 Because we use definitions that are a fair bit more in depth, we define them first.
 
@@ -24,6 +24,6 @@ Apart from this, there are a couple rules intended to prevent gerrymandering:
 - A district must be contious (already in practice)
 - a district must not be drawn arbitrarly (not in practice)
 
-### Ranked Choice Voting
+## Ranked Choice Voting
 
 Ranked choice voting, also instant runoff voting, was chosen here, and is among the larger changes made here

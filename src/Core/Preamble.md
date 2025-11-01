@@ -1,4 +1,4 @@
-## Preamble 
+# Preamble 
 
 When the parties control the people;
 When those not elected effectively create the law;
