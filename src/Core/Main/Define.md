@@ -1,25 +1,35 @@
 
 
 ## Article 1
-<!--- Definitions -->
+<!--- DDistrict -->
 
 
 ### Section 
 <!--- Electoral districts -->
 
-There shall be, within the United States, 250 electoral districts, whose boundaries shall be determined by the state in which the district is located; however, upon a vote of 3/5 in either the Senate or the House of Representatives, the boundaries shall be determined by the federal government, such that the district still lies within the state, and is permissible.
-In addition, an apportionment among the territories shall be decided by Congress.
+Upon the adoption of this constittuion, there shall be 250 districts, as enumerated in [this table](../../figures/current.csv).
 
-A district may not lie on two or more states.
-A district must be continuous (either by land or by sea).
-Every point in the United States, or territories thereof, must lie within a district.
 
-Each state shall be given districts proportional to its population, but no state may have zero districts.
-In addition, at least 1 district must be assigned to the collective territories of the United States.
-The District of Columbia shall have its own distinct district, which may not be affected by any act of Congress.
+### Section 
+<!--- The censues --->
 
-The population of each state shall be determined by a fair thorough census, conducted once every 16 years, not taking effect until the next election.
-Each district must be bound by established borders.
+Every 16th year, starting from the 16th year after the adoption of this constitution, there shall be a censues.
+This censues shall be conducted in a non-partisan manner, and must count the number of persons in each state eligible to vote 
+
+### Section 
+<!-- The districts
+This sounds more complex then it is.
+Basically:
+1. Find the voter percentage of any given region wrt the US, multipliy it by 250
+2. If that is less than 1, remove it for consideration
+3. Take the number of regions effected by 2 and subtract that number from 250 
+4. Find the voter percentage of all the states not removed in 2, and apply 1 except 
+
+DC and Puerto Rico 
+This just means that if they become states they don't get to have the clause apply
+-->
+After each censeus, the electoral districts shall be distributed to the regions according to their voting, such that average weighted variance by voter per region of districts of voters per district shall be minimized, such that no region shall have zero members.
+Each state shall form its own district, as do the District of Columbia and Puerto Rico, so long as they do not belong to some other region.
 
 ### Section 
 <!--- Ranked Choice Voting -->
