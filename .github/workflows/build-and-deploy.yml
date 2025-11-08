@@ -1,0 +1,83 @@
+name: Build and Deploy Constitution
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pandoc
+        uses: pandoc/actions/setup@main
+        with:
+          version: 3.1.11
+
+      - name: Create output directory
+        run: mkdir -p output
+
+      - name: Generate HTML
+        run: |
+          pandoc --defaults=DEFAULTS.yaml -o output/constitution.html
+
+      - name: Generate Markdown
+        run: |
+          pandoc --defaults=DEFAULTS.yaml -t markdown -o output/constitution.md
+
+      - name: Generate Plain Text
+        run: |
+          pandoc --defaults=DEFAULTS.yaml -t plain -o output/constitution.txt
+
+      - name: Generate ODT
+        run: |
+          pandoc --defaults=DEFAULTS.yaml -o output/constitution.odt
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: constitution-documents
+          path: output/
+
+      - name: Upload to Release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            output/constitution.html
+            output/constitution.md
+            output/constitution.txt
+            output/constitution.odt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
