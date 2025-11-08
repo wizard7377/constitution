@@ -32,6 +32,7 @@ jobs:
       - name: Generate HTML
         run: |
           pandoc --defaults=DEFAULTS.yaml -o output/constitution.html
+          cp output/constitution.html output/index.html
 
       - name: Generate Markdown
         run: |
