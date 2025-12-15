@@ -2,11 +2,13 @@
 
 
 
-## Article 4
-<!--- Executive -->
+##
+::: Comment
+Executive 
+:::
 
 
-### Section
+###
 
 The executive power of the United States shall be vested in one primary executor and three secondary executors.
 The executive vote, if all members are present, is the consensus of the secondary executors, or, if no such consensus is reached, that of the primary executor.
@@ -15,29 +17,31 @@ If two or more abstain, then the vote shall be that of the primary executor.
 However, in the case that the primary executor abstains, then it shall be the majority vote among the secondary executors.
 If this vote is tied, then the vote shall be deferred to the house.
 
-### Section
+###
 
-All executors shall have a term of **8 years**, offset by two years, as is the house and senate, with the primary executor being elected in the first year of the cycle.
+All executors shall have a term of **8 years**, offset by two years, as is the house and senate, with the primary executor being elected in the first year of the election cycle.
 
-Each electoral district shall cast one ranked ballot, which should be determined by popular ranked vote, each counting as one vote, and all the ballots shall be made part of a national ranked choice election, which shall determine the given executor.
+The executors shall each be elected by popular ranked choice vote.
 
-No district shall submit a ballot with less than two candidates on it.
-
-### Section
+###
 
 **No person shall be an executor who is not yet 21 years of age, or not a citizen of the United States.**
 Each executor shall take a binding oath of office, however, such an oath must not require any specific religion, nor may any other test be required for affiliation or lack thereof with any religion
 
-### Section 
-<!--- Duties of the Executors -->
+### 
+::: Comment
+Duties of the Executors 
+:::
 
 The executors shall act as heads of the army, as well as chief diplomats of the United States.
 However, to sign a treaty, they must have the affirmation of either 1/2 of the House of Representatives or 2/3 of the Senate.
 The executor shall have the ability to grant pardons.
 They shall also head executive departments as established and delegated by Congress.
 
-### Section 
-<!--- State of the Union -->
+### 
+::: Comment
+State of the Union 
+:::
 
 At least once each year, at least one executor must give a **verbal** address to Congress and to the people on the State of the Union.
 

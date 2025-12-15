@@ -70,15 +70,6 @@ Through questions like these, I hope we can become a "beacon of democracy around
 - `rtf`
 - `txt` (plain text)
 
-#### Automated Builds
-
-This repository includes a GitHub Action workflow that automatically:
-- Generates HTML, Markdown, plain text, and ODT versions of the constitution using pandoc
-- Uploads all generated documents to GitHub releases when a new release is created
-- Deploys the HTML version to GitHub Pages
-
-The workflow can be triggered manually or automatically when creating a new release.
-
 ## Free as in Freedom
 
 This work is licensed under the `CC 0`, `Creative Commons Zero v1.0 Universal`, or `CC0-1.0`, license.

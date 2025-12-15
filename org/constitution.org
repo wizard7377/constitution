@@ -1,0 +1,254 @@
+#+SEQ_TODO: TODO(t) CHECK(c) | REMOVED(r@) MOVED(m@/!) DONE(d!)
+
+* Primary Text
+** TODO [1/10] Article 1                                           :ARTICLE:
+The Congress and powers of Congress
+*** MOVED [0/0] Section 1                                    :SECTION: 
+- State "MOVED"      from "CHECK"      [2025-11-26 Wed 17:34] \\
+  Article 2
+Basic Structure of legislature
+*** TODO [5/5] Section 2                                            :SECTION: 
+Defines there to be a House of Represenative
+**** MOVED Enumeration
+- State "MOVED"      from "TODO"       [2025-11-26 Wed 21:19] \\
+  Rights
+**** DONE Election dates
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:20]
+**** DONE Vacccencies in the House
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:20]
+**** DONE Rules of the House
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:20]
+**** DONE Impeachment
+
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:23]
+*** TODO [4/4] Section 3                                            :SECTION: 
+Basic structure of the Senate
+**** DONE Division of Senators
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:20]
+**** DONE Ties
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:23]
+**** DONE Rules of the Senate 
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:28]
+**** DONE Impeachment
+
+- State "DONE"       from "TODO"       [2025-11-26 Wed 21:28]
+*** TODO [0/0] Section 4                                     :SECTION: 
+**** TODO Rules regarding elections
+**** TODO Congress must do its job
+
+*** TODO [0/0] Section 5                                     :SECTION: 
+Shared and respective members of congress
+**** TODO Determining Rules
+**** TODO Quorums
+**** TODO Punishing members
+**** TODO Public review of proceedings
+**** TODO Reccesses
+
+*** TODO [0/0] Section 6                                     :SECTION: 
+**** TODO Exclusivity
+**** TODO Compensation
+*** TODO [0/0] Section 7                                     :SECTION: 
+**** TODO Tax power
+**** TODO Process of bill writing
+*** TODO [0/0] Section 8                                     :SECTION: 
+The infamous powers of congress
+**** TODO Taxes, debts, uniformity
+- [ ] Make clear that the power to tax must explicity be *about* taxes
+- [ ] Non-discrimination among states
+**** TODO Borrow money, banking
+**** TODO Interstate and International commerce
+- [ ] Clarify 
+**** TODO Immagration law
+**** TODO Punishment for counterfitting coinving money
+**** TODO Post offices
+**** TODO Science and useful arts, copyright
+**** TODO Establish justice
+**** TODO Declare international law
+**** TODO Declare war, regulate the milatary, raise the milatary
+- [ ] Funding time limit
+**** TODO Excersise power over DC
+
+**** TODO Neccsarry and Proper [#1] 
+*** TODO [0/0] Section 9                                     :SECTION: 
+Powers denied to congress
+**** TODO Habeous corpus
+**** TODO No retroactive law
+**** TODO No tariffing states
+**** TODO Federal non-discrimination on the basis of states
+**** TODO No money shall be taken except by law
+**** TODO No titles of nobility 
+
+*** TODO [0/0] Section 10                                   :SECTION: 
+Powers denied to the states
+**** TODO Not treateries alliances
+**** TODO Coin money, establish credit
+**** TODO No ex post facto law
+**** TODO No power to grant titles of nobility
+**** TODO No power that invalidates existing civil contracts
+**** TODO No tariffs with a small exception for inspection 
+**** TODO No milatary power
+
+
+
+** TODO [0/1] Article 2                                     :ARTICLE:
+*** TODO [0/0] Section 1 :SECTION: 
+**** TODO Structure of the federal executive
+**** TODO Electoral college
+**** TODO No senators or reps as electors
+**** TODO Congressional oversight
+**** TODO Requirements to be president
+**** TODO Payment
+**** TODO Oath of Office
+
+*** TODO [0/0] Section 2                                     :SECTION: 
+
+**** TODO Commander in chief
+**** TODO Run executive depertments
+**** TODO Pardons
+**** TODO Negotiate treaties
+**** TODO Along with senate manage foriegn relations
+**** TODO Congress defering the law
+**** TODO Recess apointments
+
+*** TODO [0/0] Section 3                                     :SECTION: 
+**** TODO State of the union
+**** TODO Emergency sessions
+**** TODO Nuclear option
+
+*** TODO [0/0] Section 4                                     :SECTION: 
+**** TODO Removal from office
+
+
+** TODO [0/1] Article 3                                     :ARTICLE:
+
+*** TODO [0/0] Section 1 :SECTION: 
+The judiacary
+**** TODO Supreme court
+**** TODO Congress establishing inferior quotes
+**** TODO Compensation
+*** TODO [0/0] Section 2                                     :SECTION: 
+**** TODO Various cases when supreme court has juristidction
+**** TODO State (either of the Union or not)
+**** TODO Trial by jury, and locale
+*** TODO [0/0] Section 3                                     :SECTION: 
+**** TODO Definition of treason
+** TODO [0/1] Article 4                                     :ARTICLE:
+*** TODO [0/0] Section 1 :SECTION: 
+**** TODO Credit to the States
+*** TODO [0/0] Section 2                                     :SECTION: 
+**** TODO No discrimation on the basis of home state
+**** TODO Extradiction between states
+*** TODO [0/0] Section 3                                     :SECTION: 
+**** TODO Process for Admitting terrotories and regulating them
+
+** TODO [0/1] Article 5                                     :ARTICLE:
+**** Process for amending the constitution
+
+** TODO [0/1] Article 6                                     :ARTICLE:
+*** TODO Validity of debts
+*** TODO Supremecy
+*** TODO Oaths, but no religous test 
+** TODO [0/1] Article 7                                     :ARTICLE:
+
+
+
+
+
+
+
+
+
+* TODO [0/0] Bill of Rights
+** TODO [0/0] Ammendment 1 :AMENDMENT:
+**** TODO Freedom of Spech
+stricter scrutiny 
+**** TODO Freedom of the press
+**** TODO Freedom of the religion
+Include the freedom to have no religion
+**** TODO Freedom of the petiion
+**** TODO Freedom of the assembly
+**** TODO Freedom of the expression
+**** TODO No establishment 
+Include no establishing either the presence of or absence of faith
+** TODO [1/1] Ammendment 2                                       :AMENDMENT:
+**** REMOVED Bear arms
+- State "REMOVED"    from "TODO"       [2025-11-25 Tue 21:57] \\
+  The 2nd ammendment is entierly not used today, and only serves to slightly impede gun control
+
+**** TODO Militia
+
+** TODO [0/0] Ammendment 3 :AMENDMENT:
+**** TODO No quartering of soliders
+Also no deploying milatary against states
+** TODO [0/0] Ammendment 4 :AMENDMENT:
+**** TODO Searches and seizures, and outside public eye
+** TODO [0/0] Ammendment 5 :AMENDMENT:
+**** TODO Grand jury, except court martial
+**** TODO No double jeporday 
+**** TODO No self incrimination 
+strength this
+**** TODO Due process
+**** TODO Just compensation
+** TODO [0/0] Ammendment 6 :AMENDMENT:
+**** TODO Speedy and Public Trial
+**** TODO Witnesses
+**** TODO Counsel
+** TODO [0/0] Ammendment 7 :AMENDMENT:
+**** TODO Civil trial
+** TODO [0/0] Ammendment 8 :AMENDMENT:
+**** TODO Cruel and unusual
+** TODO [0/0] Ammendment 9 :AMENDMENT:
+**** TODO No enumerated rights
+** TODO [0/0] Ammendment 10                               :AMENDMENT:
+**** TODO Powers reserved to the states
+** TODO [0/0] Ammendment 11                               :AMENDMENT:
+**** TODO Suing states
+** TODO [0/0] Ammendment 12                               :AMENDMENT:
+**** TODO Election of electors
+** TODO [0/0] Ammendment 13                               :AMENDMENT:
+**** TODO No slavery
+** TODO [0/0] Ammendment 14                               :AMENDMENT:
+**** TODO Birthright citizenship
+**** TODO Equal protection
+**** TODO Protection of all citizens
+**** TODO Due process 
+- [ ] Void subsitunative due process 
+**** TODO Representation 
+**** TODO No rebellion
+**** TODO No funding rebellions
+** TODO [0/0] Ammendment 15                               :AMENDMENT:
+**** TODO Right to vote by race
+** TODO [0/0] Ammendment 16                               :AMENDMENT:
+**** TODO Income tax
+** TODO [0/0] Ammendment 17                              :AMENDMENT:
+**** TODO Popular election of senators
+** REMOVED Ammendment 18                                           :AMENDMENT:
+Already repealed 
+** TODO [0/0] Ammendment 19                               :AMENDMENT:
+**** TODO Right on basis of gender
+** TODO [0/0] Ammendment 20                               :AMENDMENT:
+**** TODO Date of succesion
+**** TODO Congress must meet
+**** TODO Successsion 
+**** TODO Congress and succession 
+** REMOVED [0/0] Ammendment 21                              :AMENDMENT:
+Simply repealed 18
+** TODO [0/0] Ammendment 22                               :AMENDMENT:
+**** TODO Two term limit
+** TODO [0/0] Ammendment 23                               :AMENDMENT:
+**** TODO DCs Vote
+** TODO [0/0] Ammendment 24                               :AMENDMENT:
+**** TODO No poll taxes
+** TODO [0/0] Ammendment 25                               :AMENDMENT:
+**** TODO Succession, again
+** TODO [0/0] Ammendment 26                               :AMENDMENT:
+**** TODO Right to vote on basis of age
+** TODO [0/0] Ammendment 27                               :AMENDMENT:
+**** TODO Congressional corruption
+* TODO [/] Supreme Court Rulings
+** TODO Overturn "loose constructivism"
+
+* TODO [/] General Issues
+** TODO Ranked Choice Voting
+** TODO The implicit powers of States
+** TODO The limiting of the supreme court

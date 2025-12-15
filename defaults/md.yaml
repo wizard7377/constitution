@@ -1,0 +1,3 @@
+defaults: 
+  ./DEFAULTS.yaml
+output-file: ./output/main.md

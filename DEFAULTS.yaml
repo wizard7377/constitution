@@ -1,25 +1,27 @@
 input-files:
-- src/TEXT.md
-- src/Core/Preamble.md
-- src/Core/Main.md
-- src/Core/Main/Define.md
-- src/Core/Main/Restrict.md
-- src/Core/Main/Congress.md
-- src/Core/Main/Powers.md
-- src/Core/Main/Exec.md
-- src/Core/Main/Judge.md
-- src/Core/Main/Due.md 
-- src/Core/Main/Federal.md
-- src/Core/Main/Misc.md
-- src/Core/Main/Citizen.md
-- src/Core/Main/Amending.md
-- src/Core/Main/Ratify.md
+- ./src/TEXT.md
+- ./src/Core/Preamble.md
+- ./src/Core/Main.md
+- ./src/Core/Main/Define.md
+- ./src/Core/Main/Powers.md
+- ./src/Core/Main/Congress.md
+- ./src/Core/Main/Exec.md
+- ./src/Core/Main/Judge.md
+- ./src/Core/Main/Due.md
+- ./src/Core/Main/Federal.md
+- ./src/Core/Main/Misc.md
+- ./src/Core/Main/Citizen.md
+- ./src/Core/Main/Rights.md
+- ./src/Core/Main/Amending.md
+- ./src/Core/Main/Ratify.md
 
 
+from: markdown
 strip-comments: true 
 standalone: true
 wrap: preserve
 top-level-division: part
+number-sections: true
 
 metadata:
   title: "The New Constitution"

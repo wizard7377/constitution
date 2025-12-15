@@ -1,0 +1,5 @@
+defaults: 
+  ./DEFAULTS.yaml
+
+to: plain
+output-file: ./output/main.txt

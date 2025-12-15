@@ -1,23 +1,30 @@
 
 
-## Article 7
-<!--- States and Federal -->
+##
+::: Comment
+States and Federal 
+:::
 
 
-### Section 
-<!--- States -->
+### 
+::: Comment
+States 
+:::
 
-*Federal property may not be taxed by the state or locality in which it is in.*
-In the case that a state and federal law conflict, the federal law shall be followed.
+*Federal property may not be taxed by the state or locality in which it is located.*
+In the case that a state and federal law conflict, the federal law shall suplant the state law.
+*States may not nullify federal law.*
 No state may have an embassy, or receive an embassy of, any state of the United States or any foreign state.
-States may not mint their own currency.
+States may not mint their own currency, unless given permission by the house
 States must provide for and protect the rights of their citizens as defined by this Constitution.
-**No state may have a military**, and none may lay tariffs.
+**No state may have a military**, and none may lay tariffs, except as shall be neccasarry for the maintance of ports.
 
 States must deliver those fleeing from justice in some other state to that state, so they may stand trial.
 
-### Section 
-<!--- Federal Government -->
+### 
+::: Comment
+Federal Government 
+:::
 
 The federal government shall not deploy the militia against the states, without either 2/3 of the House or the Senate, or at the request of the state government, or if the state has formally declared an insurrection, or if citizens of other states, or federal property, shall be threatened.
 
